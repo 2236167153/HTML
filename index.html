@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<!-- border是表格边框宽度 -->
+		<!-- width表格宽度 -->
+		<!-- height表格高度 -->
+		<!-- align显示位置left center right -->
+		<!-- cellpadding="文字距离表格左间距" -->
+		<!-- cellspacing="单元格之间的距离" -->
+		<!-- bgcolor改变背景颜色 -->
+		<!-- colspan="合并单元格 的行" -->
+		<!-- rowspan="合并单元格的列" -->
+		<table border="1" width="800" height="300" align="center"
+		 cellpadding="30" cellspacing="10" bgcolor="aqua">
+			<tr bgcolor="cornflowerblue">
+				<th colspan="2">Header</th>
+				<!-- <td>one</td> -->
+				<td>two</td>
+			</tr>
+			<tr>
+				<th>Header</th>
+				<td>one</td>
+				<td rowspan="2">two</td>
+			</tr>
+			<tr>
+				<th>Header</th>
+				<td>one</td>
+				<!-- <td>two</td> -->
+			</tr>
+		</table>
+	</body>
+</html>
